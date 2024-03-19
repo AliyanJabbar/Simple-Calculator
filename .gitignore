@@ -1,0 +1,3 @@
+# anything we want to ignore or we don't want to push it to github so we simply add that file or folder here
+# example: If I don't want to publish node_modules on github:
+# node_modules
