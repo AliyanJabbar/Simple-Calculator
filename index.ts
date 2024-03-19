@@ -1,3 +1,7 @@
+#! /usr/bin/env node  
+    //This shebang(name) code is use for defining that people use it and they can run it
+
+
 import inquirer from "inquirer";
 import ListPrompt from "inquirer/lib/prompts/list.js";
 
@@ -6,7 +10,7 @@ const answer = await inquirer.prompt([
   { message: "Enter First Number", type: "number", name: "FirstNumber" },
   { message: "Enter Second Number", type: "number", name: "SecondNumber" },
   {
-    message: "Select One Of The Operators",
+    message: "Select One Of The Operators to perform operation",
     type: "list",
     name: "operators",
     choices: ["Addition", "Subtraction", "Multiplication", "Division"],
